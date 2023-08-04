@@ -540,7 +540,8 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+
+        <div class="footer-social">
           <p class="social-text">Social media</p>
           <ul class="footer-icon list">
             <li class="footer-icon-el">
@@ -573,6 +574,24 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-sub">
+          <p class="footer-sub-text">Subscribe</p>
+          <form>
+            <input type="email" placeholder="E-mail" class="footer-email" />
+            <button type="submit" class="footer-subscribe-button">
+              Subscribe
+              <svg
+                class="footer-list-icon icon"
+                width="24"
+                height="24"
+                class="footer-icon-telegram"
+              >
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -583,6 +602,68 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <div class="modal-form-container">
+          <p class="modal-text-name">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <label class="modal-label modal-text">
+              Name
+              <div class="input-wrap">
+                <input type="text" class="modal-input" />
+                <svg width="18" height="18" class="modal-icon-input">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </label>
+
+            <label class="modal-label modal-text">
+              Phone
+              <div class="input-wrap">
+                <input type="tel" class="modal-input" />
+                <svg width="18" height="24" class="modal-icon-input">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+
+            <label class="modal-label modal-text">
+              Email
+              <div class="input-wrap">
+                <input type="email" class="modal-input" />
+                <svg width="18" height="24" class="modal-icon-input">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+
+            <label class="modal-label modal-text">
+              Comment
+              <textarea
+                name=""
+                id=""
+                cols="1"
+                rows="10"
+                placeholder="Text input"
+                class="modal-textarea"
+              ></textarea>
+            </label>
+          </form>
+
+          <form>
+            <input type="checkbox" id="terms" />
+            <label for="terms">
+              <span class="modal-text">
+                I accept the terms and conditions of the
+              </span>
+              <a href="" class="modal-terms-link">Privacy Policy</a>
+            </label>
+          </form>
+
+          <div class="modal-button-container">
+            <button type="submit" class="modal-button">Send</button>
+          </div>
+        </div>
       </div>
     </div>
 
