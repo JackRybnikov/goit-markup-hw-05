@@ -663,12 +663,23 @@
               placeholder="Text input"
               class="modal-textarea"
             ></textarea>
+          </div>
 
-            <input type="checkbox" id="terms" />
-            <label for="terms">
-              <span class="modal-text">
-                I accept the terms and conditions of the
+          <div class="modal-check">
+            <input 
+              type="checkbox" 
+              id="user-privacy" 
+              value="true" 
+              name="user-privacy" 
+              class="modal-input-check visually-hidden"
+            />
+            <label for="user-privacy" class="modal-label-check">
+              <span class="modal-label-check-span">
+                <svg width="10" height="8" class="modal-labeel-check-icon">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
               </span>
+                I accept the terms and conditions of the
               <a href="" class="modal-terms-link">Privacy Policy</a>
             </label>
           </div>
